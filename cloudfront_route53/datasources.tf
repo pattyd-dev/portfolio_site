@@ -1,10 +1,3 @@
-data "terraform_remote_state" "storage" {
-  backend = "local"
-  config = {
-    path = "../data_stores/terraform.tfstate"
-  }
-}
-
 data "aws_iam_policy_document" "origin_bucket_policy" {
   statement {
     sid    = "AllowCloudFrontServicePrincipalReadWrite"
