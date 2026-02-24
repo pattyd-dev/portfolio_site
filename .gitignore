@@ -40,3 +40,8 @@ terraform.rc
 *.css
 *.html
 *.js
+
+# Ignore backend config for remote state
+backend.tf
+
+
