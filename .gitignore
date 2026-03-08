@@ -44,4 +44,5 @@ terraform.rc
 # Ignore backend config for remote state
 backend.tf
 
-
+# Ignore Output
+output/*
